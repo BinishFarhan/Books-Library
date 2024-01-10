@@ -1,0 +1,45 @@
+
+*{
+    font-family: 'Salsa', cursive;
+    
+}
+.logo{
+    width: 80px !important;
+    height: 60px !important;
+}
+.background{
+    background-color: white !important;
+    height: 70px !important;
+    
+}
+.text{
+    color: #ee0290 !important;
+}
+.textColor{
+    color: #ee0290 !important;
+    font-weight: bolder !important;
+    background: white !important; 
+    border: 2px solid #ee0290;
+
+    /* "to left" / "to right" - affects initial color */
+}
+.textColor:hover{
+    background: linear-gradient(to left, #af016a 50%, white 50%) right !important;
+    background-size: 200% !important;
+    transition: .3s ease-out !important;
+    /* background-position: left !important; */
+
+    /* /* background-color: #bd5593 !important; */
+    color: white !important; 
+    outline: none !important;
+    border: none !important;
+}
+
+.imgHeight{
+    height: 200px !important;
+}
+.images{
+    /* width: 1000px !important; */
+    height: 400px !important;
+    
+}
